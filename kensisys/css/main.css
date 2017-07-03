@@ -1,0 +1,284 @@
+
+
+.header{
+	background: #131313;
+}
+
+.logo{
+	overflow: hidden;
+	padding-left: 0;
+	
+}
+.logo .img {
+	background-color: #131313;
+	padding-top: 48px;
+	padding-left: 150px;
+	
+	color: #131313;
+
+}
+.logo .btn{
+	overflow: hidden;
+	width:121px;
+	height: 121px;
+	background: #AE4F83;
+	padding-top: 0;
+	padding-left: 0px;
+	color: white;
+	float: left;
+	font-weight:100;
+}
+.logo .btn a i{
+	padding-top: 40px;
+	padding-left: 12px;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	overflow: hidden;
+
+}
+.logo .btn > a{
+	top: 20px;
+}
+.logo .btn{
+	position: relative;
+}
+.logo .btn .overley{
+
+  background:black;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity:0.5;
+}
+.logo .btn:before {
+  content:"";
+  top:-154PX;
+  left:-198px;
+  width:215px;
+  height:190px;
+  background: white;
+  transition:all .1.5s;
+  transform:rotate(46deg);
+  position:absolute;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.logo .btn:hover:before{
+  top:-25px;
+  opacity: 0.2;
+  left:-20px;
+  transition:0.7s;
+  display:inline-block;
+}
+.logo .btn:hover:before {
+  transform:scale(1.5);
+}
+
+.container-fluid{
+	height: 117px;
+	
+}
+.nav   > li > a{
+	text-decoration: none;
+    /*font: 300 18px/20px "Jura",sans-serif;*/
+    font-size: 15px;
+    font-family: sans-serif;
+  
+	padding-left: 30px;
+	padding-top: 53px;
+	color: #4A4A4A;
+	position: relative;
+}
+.nav {
+	padding-left: 0px;
+	margin-left: -40px;
+	
+
+}
+.nav   > li > a:hover{
+	color: white;
+	transition: 0.3s;
+	transition-timing-function: linear;
+
+}
+.contact .nas,.user,.bukech,.search{
+	border-left: 1px solid grey;
+	overflow: hidden;
+	width: 113px;
+	height: 117px;
+	color: white;
+}
+.contact .nas i{
+	padding-left: 35%;
+	padding-top: 40%;
+	font-size: 35px;		
+}
+.contact .user i{
+	padding-left: 35%;
+	padding-top: 40%;
+	font-size: 35px;
+	
+	
+}
+.contact .bukech i{
+	padding-left: 35%;
+	padding-top: 40%;
+	font-size: 35px;	
+}
+
+.contact .search i{
+	padding-left: 35%;
+	padding-top: 40%;
+	font-size: 35px;
+	
+}
+.contact .nas:before{
+  content:"";
+  top:-154PX;
+  left:-198px;
+  width:215px;
+  height:190px;
+  background: #AE4F83;
+  transition:all .1s;
+  transform:rotate(45deg);
+  position:absolute;
+  overflow: hidden;
+}
+.contact .nas:hover:before{
+  top:-25px;
+  left:-20px;
+  transition:0.3s;
+  
+}
+.contact i{
+
+	position: relative;
+}
+
+
+.contact .user:before{
+  content:"";
+  top:-154PX;
+  left:-198px;
+  width:215px;
+  height:190px;
+  background: #AE4F83;
+  transition:all .1s;
+  transform:rotate(45deg);
+  position:absolute;
+  overflow: hidden;
+}
+.contact .user:hover:before{
+  top:-25px;
+  left:-20px;
+  transition:0.3s;  
+}
+
+
+
+.contact .bukech:before{
+  content:"";
+  top:-154PX;
+  left:-198px;
+  width:215px;
+  height:190px;
+  background: #AE4F83;
+  transition:all .1s;
+  transform:rotate(45deg);
+  position:absolute;
+  overflow: hidden;
+}
+.contact .bukech:hover:before{
+  top:-25px;
+  left:-20px;
+  transition:0.3s;
+  
+}
+
+
+
+.contact .search:before{
+  content:"";
+  top:-154PX;
+  left:-198px;
+  width:215px;
+  height:190px;
+  background: #AE4F83;
+  transition:all .2.5s;
+  transform:rotate(46deg);
+  position:absolute;
+  overflow: hidden;
+}
+.contact .search:hover:before{
+  top:-25px;
+  left:-20px;
+  transition:0.3s;
+  
+}
+/*.contact.search:after{
+  content:'';
+  position:relative;
+  transition:all .5s;
+  display:inline-block;
+  
+}*/
+/*.contact.search i:hover:after {
+  display:inline-block;
+  transform:scale(2.5);
+}*/
+.slider{
+	top: 0px;
+	width: 100%;
+}
+.slider .Sliderbtn{
+	width: 100px;
+	height: 40px;
+	background: red;
+	position: absolute;
+	right: 101px;
+	margin-top: 300px;
+}
+.slider ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.slider ul li{
+	position: absolute;
+}
+.slider ul li img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.slider .btn1{
+	z-index: 3;
+	margin-top: 600px;
+	margin-left: 1000px;
+}
+.slider .btn1 > button{
+	width: 100px;
+	height: 9px;
+}
+.slider .btn1 .active{
+	position: relative;
+    background: red;
+}
+.slider .btn1:hover{
+
+
+	
+}
+.slider .images li p{
+	position: absolute;
+	font-size: 3.5em;
+	margin-top: -320px;
+	right: 300px;
+	padding: 0;
+	color: white;
+}
