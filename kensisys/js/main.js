@@ -28,6 +28,12 @@ var mycls = $(".slider-buttons");
 });
 
 
+    $(".shekiller .text").mouseover(function(){
+        $(this).css({"padding-top":"25px","transition":"all 0.5s"});
+         });
+        $(".shekiller .text").mouseout(function(){
+        $(this).css("padding-top", "0px");
+         });
 
 
 });
